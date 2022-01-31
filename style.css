@@ -4,6 +4,7 @@
     background-image: url('https://preview.colorlib.com/theme/nitro/images/xhero_2.jpg.pagespeed.ic.K2u_NyNVY7.webp');
     width: 100%;
     height: 100vh;
+    font-family: sans-serif;
 }
 *
 {
@@ -87,16 +88,19 @@ nav
     padding: 12px 30px;
     border-radius: 25px;
     color: white;
-    transition: 1s;
+    transition: 0.4s;
 }
 .max a:hover
 {
     background-color: black;
     border: 1px solid black;
+    transition: 0.4s;
 }
 .max a:active
 {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.4s;
 }
 
 
@@ -110,7 +114,7 @@ h4
 }
 
 
-.div
+.div 
 {
     width: 60%;
     height: 350px;
@@ -118,11 +122,30 @@ h4
     margin-top: 200px;
     margin-left: 380px;
 }
-.boxx
+
+.boxx  img 
 {
+
+    float: left;
     width: 50%;
     height: 350px;
     display: inline-block;
+    filter: grayscale(100%);
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.boxx :hover{
+    transform: scale(1.1);
+    transition: 1s;
+        filter: grayscale(0%);
+    transition: .8s;
+    box-shadow: 0 0 20px black;
+  
+    
+  
+ 
 }
 .box
 {
@@ -170,11 +193,13 @@ h4
     color: #007BFF;
     text-align: center;
     margin-top: 150px;
+    font-family: sans-serif;
 }
 .plarmi
 {
     text-align: center;
-    font-size: 23px;
+    font-size: 18px;
+    font-family: sans-serif;
     color: #808284;
     letter-spacing: 3px;
     font-family: sans-serif;
@@ -586,14 +611,6 @@ input:focus{
 }
 .Coment{
     height: 250px;
-}
-.k{
-    z-index: 200;
-    bottom: 50%;
-    position: absolute;
-    padding-left: 30px;
-    font-size: 18px;
-
 }
 .Inputqu{
     margin-top: 15px;
