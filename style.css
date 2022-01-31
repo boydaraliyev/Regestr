@@ -618,17 +618,18 @@ input:focus{
     font: 25px;
     border-radius: 20px;
     outline: none;
-    border: 1px solid blue;
+    border: 1.5px solid blue;
     width: 170px;
     height: 40px;
     background-color: blue;
     color: white;
-    transition: .5s;
+    transition: .6s;
 }
 .Inputqu:hover{
-    transition: .5s;
+    transition: .6s;
     border: 1px solid black;
     background-color: black;
-    box-shadow: 0 0 8px gray;
+    box-shadow: 0 0 10px gray;
 }
 /*O'chirmagin shorux hopmi ?*/
+/*Shoxrux nima gapla tinchmi ishla !!*/
