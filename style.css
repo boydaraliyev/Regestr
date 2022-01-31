@@ -7,6 +7,7 @@
 }
 *
 {
+    cursor: pointer;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -518,14 +519,106 @@ i
 .bold
 {
     width: 100%;
-    height: 1000px;
+    height: 500px;
+    border-bottom: 1px solid gray;
 
 }
+.value
+{
+    margin-top: 100px;
+    width: 55%;
+    height: 300px;
+    margin-left: 440px;
+}
+.input
+{
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+.inputln
+{
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+.fas
+{
+    color: #007BFF;
+    font-size: 35px;
+    float: left;
+}
+.color
+{
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size: 23px;
+    font-family: serif;
+}
+.save
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.money
+{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.oho .aha
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.oho
+{
+    margin-top: 30px;
+}
+.oho .aha:hover
+{
+    color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Regestration mak-mak*/
+.ho
+{
+    color: #007BFF;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.footer
+{
+    width: 100%;
+    height: 1000px;
+}
 .Regg{
     width: 100%;
     height: 90vh;
+    margin-top: 60px;
 }
 .Regoyna{
     width: 80%;
@@ -613,5 +706,17 @@ input:focus{
     border: 1px solid black;
     background-color: black;
     box-shadow: 0 0 8px gray;
+}
+
+.allnumber{
+    text-align: center;
+}
+.number{
+    display: inline-block;
+    padding: 30px 20px;
+    font-family: sans-serif;
+    color: #007BFF;
+    font-size: 21px;
+    
 }
 /*O'chirmagin shorux hopmi ?*/
