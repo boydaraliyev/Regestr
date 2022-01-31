@@ -8,7 +8,6 @@
 }
 *
 {
-    cursor: pointer;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -237,13 +236,27 @@ h4
     margin-top: 50px;
     width: 80%;
     height: 750px;
+    float: left;
 }
-.rowspan
+.rowspan 
 {
+    transition: .5s;
     display: inline-block;
     width: 20%;
     height: 300px;
+    border-radius: 10px;
     margin-left: 60px;
+    transition: 1s;
+}
+img{
+    transition: 1s;
+}
+.rowspan img:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: .6s;
+    transform: scale(1.1);
+
 }
 .plarga
 {
