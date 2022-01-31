@@ -4,6 +4,7 @@
     background-image: url('https://preview.colorlib.com/theme/nitro/images/xhero_2.jpg.pagespeed.ic.K2u_NyNVY7.webp');
     width: 100%;
     height: 100vh;
+    font-family: sans-serif;
 }
 *
 {
@@ -88,16 +89,19 @@ nav
     padding: 12px 30px;
     border-radius: 25px;
     color: white;
-    transition: 1s;
+    transition: 0.4s;
 }
 .max a:hover
 {
     background-color: black;
     border: 1px solid black;
+    transition: 0.4s;
 }
 .max a:active
 {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.4s;
 }
 
 
@@ -111,7 +115,7 @@ h4
 }
 
 
-.div
+.div 
 {
     width: 60%;
     height: 350px;
@@ -119,11 +123,30 @@ h4
     margin-top: 200px;
     margin-left: 380px;
 }
-.boxx
+
+.boxx  img 
 {
+
+    float: left;
     width: 50%;
     height: 350px;
     display: inline-block;
+    filter: grayscale(100%);
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.boxx :hover{
+    transform: scale(1.1);
+    transition: 1s;
+        filter: grayscale(0%);
+    transition: .8s;
+    box-shadow: 0 0 20px black;
+  
+    
+  
+ 
 }
 .box
 {
@@ -159,7 +182,10 @@ h4
 
 
 
-
+.lilarmiMinus{
+    background-color: #007BFF;
+    color: #F8F9FA;
+}
 
 
 
@@ -171,11 +197,13 @@ h4
     color: #007BFF;
     text-align: center;
     margin-top: 150px;
+    font-family: sans-serif;
 }
 .plarmi
 {
     text-align: center;
-    font-size: 23px;
+    font-size: 18px;
+    font-family: sans-serif;
     color: #808284;
     letter-spacing: 3px;
     font-family: sans-serif;
@@ -240,7 +268,22 @@ hr
 
 
 
+.lilarmiMinus{
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #007BFF;
+    margin-left: 10px;
+    display: inline-block;
 
+
+}
+.lilarmiMinus a{
+    color: #F8F9FA;
+    text-decoration: none;
+}
 .ullarmi
 {
     margin-top: 30px;
@@ -263,8 +306,9 @@ hr
 }
 .ullarmi .lilarmi a:hover
 {
+    color: #F8F9FA;
     background-color: #007BFF;
-    transition: 1s;
+    transition: .5s;
 }
 .divsiz
 {
@@ -300,7 +344,7 @@ hr
     color: #007BFF;
     text-align: center; 
     padding-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .divlarni
 {
@@ -317,12 +361,21 @@ hr
     display: inline-block;
     margin-left: 30px;
 }
-i
+.divlar i
 {
+    position: relative;
     font-size: 50px;
     margin-left: 10px;
     margin-top: 10px;
     color: #007BFF;
+    margin-bottom: -80px;
+    top:-15%;
+
+}
+#V1{
+    position: relative;
+    top: 5%;
+    font-size: 50px;
 }
 .h3ku
 {
@@ -333,8 +386,8 @@ i
 }
 .pku
 {
-    text-align: justify;
-    font-size: 20px;
+
+    font-size: 23px;
     margin-top: 30px;
 }
 
@@ -349,7 +402,7 @@ i
 .clasku
 {
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 .pcha
 {
@@ -369,8 +422,9 @@ i
 .bruce
 {
     text-align: center;
-    margin-bottom: 700px;
+    margin-bottom: 70px;
     font-size: 25px;
+    
 }
 
 
@@ -680,33 +734,26 @@ input:focus{
 .Coment{
     height: 250px;
 }
-.k{
-    z-index: 200;
-    bottom: 50%;
-    position: absolute;
-    padding-left: 30px;
-    font-size: 18px;
-
-}
 .Inputqu{
     margin-top: 15px;
     margin-left: 25px;
     font: 25px;
     border-radius: 20px;
     outline: none;
-    border: 1px solid blue;
+    border: 1.5px solid blue;
     width: 170px;
     height: 40px;
     background-color: blue;
     color: white;
-    transition: .5s;
+    transition: .6s;
 }
 .Inputqu:hover{
-    transition: .5s;
+    transition: .6s;
     border: 1px solid black;
     background-color: black;
-    box-shadow: 0 0 8px gray;
+    box-shadow: 0 0 10px gray;
 }
+
 
 .allnumber{
     text-align: center;
@@ -720,3 +767,4 @@ input:focus{
     
 }
 /*O'chirmagin shorux hopmi ?*/
+
